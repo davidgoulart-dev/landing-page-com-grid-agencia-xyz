@@ -14,9 +14,7 @@ body {
     font-size: 1.6rem;
     font-family: 'roboto', sans-serif;
     font-weight: 400;
-
 }
-
 /* HEADER */
 .header { 
     grid-area: header;
@@ -29,19 +27,14 @@ body {
     align-items: center;
     min-height: 75px;
     }
-
     .header__logo {
         font-size: 3rem;
         font-weight: 700;
-        transition: 0.3s;
-        
+        transition: 0.3s;   
     }
-
     header a:hover h1{
         color: coral;
-
     }
-
 /* HERO */
 .hero { 
     grid-area: hero;
@@ -52,13 +45,11 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-
 }
 .hero__title {
     font-weight: 500;
     text-transform: uppercase;
     font-size: 4rem;
-
 }
 .hero:after{
     content: url('../images/seta_preta.png');
@@ -77,8 +68,6 @@ body {
     .hero__title{
         font-size: 2.5rem;
     }
-
-
 }
 /* ABOUT */
 .about { 
@@ -147,13 +136,9 @@ body {
 }
 .service__container:nth-child(1){
     background-color: lightskyblue;
-
-
 } 
 .service__container:nth-child(2){
     background-color: lightpink;
-
-
 } 
 .service__images{
     width: 250px;
